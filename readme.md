@@ -26,6 +26,8 @@
 <!-- STATUS:START -->
 | Item | Key | Status |
 |---|---|---|
+| Lab-01 — HTML-first Interactive Game (minimal JS) [#1](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/1) | `lab-01` | open |
+| Lab-02 — CSS: Crash Course [#2](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/2) | `lab-02` | open |
 <!-- STATUS:END -->
 
 
