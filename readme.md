@@ -1,10 +1,11 @@
-# 🎓 Course Portfolio — <Your Name>
+# 🎓 Course Portfolio — Nhi Pham
 
-> Personal progress page for CSCI4208. Keep this file updated as you complete labs, projects, and capstone milestones.
+> A Personal progress page for CSCI4208 with completed labs, projects, and capstone milestones.
 
-- **Name:** <Your Name>
-- **Project Board (Project v2):** <paste your board URL here>
-- **Live Portfolio (GitHub Pages):** <https://USERNAME.github.io/REPO/>
+- **Name:** Nhi Pham
+- **Project Board (Project v2):** <https://github.com/users/bunnhimaybe/projects/3>
+- **Live Portfolio (GitHub Pages):** <https://bunnhimaybe.github.io/4208-WebApplications-Portfolio/>
+- **Forked From (Instructor Repo):** <https://github.com/scalemailted/csci4208-portfolio-2025/>
 
 ---
 
@@ -58,7 +59,7 @@
 
 ---
 
-## 🏷️ Labels I use (cheat sheet)
+## 🏷️ Labels Legend
 
 **Status:** `task` · `peer-review-requested` · `reviewed` · `ready-for-approval` · `changes-requested` · `blocked` · **`completed`** · **`approved`** · `deployed`  
 **Type:** `lab` · `project` · `capstone`  
@@ -83,14 +84,6 @@
 
 ---
 
-## 🧰 Handy links
-
-- **Project board:** <paste URL>  
-- **Live portfolio:** <paste URL>  
-- **Instructor roadmap (source of truth):** <link to instructor repo or roadmap.json>
-
----
-
 ## 🔧 Troubleshooting
 
 - **Issues disabled?** Settings → General → Features → **Issues**.  
@@ -100,4 +93,5 @@
 ---
 
 <sub>Last updated: <!-- yyyy-mm-dd --> </sub>
+
 
