@@ -28,10 +28,10 @@
 | Item | Key | Status |
 |---|---|---|
 | Capstone-01 — Find a Team [#5](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/5) | `capstone-01` | open |
-| Lab-01 — HTML-first Interactive Game (minimal JS) [#1](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/1) | `lab-01` | open |
-| Lab-02 — CSS: Crash Course [#2](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/2) | `lab-02` | open |
-| Lab-03 — Bootstrap: Responsive Portfolio [#3](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/3) | `lab-03` | open |
-| Project-01 — Interactive Game in HTML & CSS [#4](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/4) | `project-01` | open |
+| Lab-01 — HTML-first Interactive Game (minimal JS) [#1](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/1) | [`lab-01`](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/labs/lab-01) | open |
+| Lab-02 — CSS: Crash Course [#2](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/2) | [`lab-02`](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/labs/lab-02) | open |
+| Lab-03 — Bootstrap: Responsive Portfolio [#3](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/3) | [`lab-03`](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/labs/lab-03) | open |
+| Project-01 — Interactive Game in HTML & CSS [#4](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/4) | [`project-01`](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/labs/lab-04) | open |
 <!-- STATUS:END -->
 
 
@@ -42,18 +42,18 @@
 ```
 
 /
-├─ index.html                 # my landing page (edit & add links)
+├─ index.html             # landing page (edit & add links)
 ├─ labs/
-│  ├─ lab-01/                 # entry = index.html (+ README.md)
+│  ├─ lab-01/             # entry = index.html (+ README.md)
 │  └─ lab-0x/
 ├─ projects/
-│  ├─ project-01/             # README.md with feature list + live URL
+│  ├─ project-01/         # README.md with feature list + live URL
 │  └─ project-0x/
 ├─ capstone/
 │  ├─ capstone-01/
 │  └─ capstone-0x/
 └─ \_docs/
-└─ README.md               # how-to guide (labels, board, actions, Pages)
+└─ README.md              # how-to guide (labels, board, actions, Pages)
 
 ```
 

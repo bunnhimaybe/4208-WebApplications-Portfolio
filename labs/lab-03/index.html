@@ -1,0 +1,54 @@
+<!-- Goal 1: Landing Page 
+
+1. implement <head> 
+2. implement <body> 
+3. BOOTSTRAP Class - background
+4. BOOTSTRAP Class - container, horizontal centering
+5. BOOTSTRAP Class - vertical centering
+6. BOOTSTRAP Class - buttons, heading
+7. BOOTSTRAP Class - icons
+-->
+
+<html>
+    <head>
+        <link rel="icon" href="assets/favicon.png"/>
+        <Title>Your Name</Title>
+
+        <!-- Required meta tags -->
+        <meta charset='utf-8'/>
+        <meta name='viewport' content="width=device-width, initial-scale=1"/>
+
+        <!-- Bootstrap CSS -->
+        <link rel='stylesheet' href='styles/bootstrap.min.css'/>
+        <link rel='stylesheet' href='styles/bootstrap-icons.css'/>
+    </head>
+
+    <body>
+        <!-- Background Image -->
+        <img class='position-absolute h-100 w-100' src='assets/bg-image.png'/>
+
+        <!-- Landing Page -->
+        <div class='position-relative text-white container text-center h-100 d-flex flex-column justify-content-center'>
+            <h1 class='display-4'> Hello, world! </h1>
+            <p> The landing page's goal is to draw the visitor's attention or highlight information. </p>
+            
+            <div>
+                <button class='btn btn-outline-light' type='button' onclick="document.location='projects.html'">
+                    <i class='bi bi-code-slash'></i> Code
+                </button>
+                <button class='btn btn-outline-light' type='button' onclick="document.location='blog.html'">
+                    <i class='bi bi-code-slash'></i> Blog
+                </button>
+                <button class='btn btn-outline-light' type='button' onclick="document.location='about.html'">
+                    <i class='bi bi-code-slash'></i> About
+                </button>
+                <button class='btn btn-outline-light' type='button' onclick="document.location='contact.html'">
+                    <i class='bi bi-code-slash'></i> Contact
+                </button>
+            </div>
+        </div>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src='scripts/bootstrap.bundle.min.js'></script>
+    </body>
+</html>
