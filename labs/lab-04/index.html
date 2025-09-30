@@ -1,0 +1,32 @@
+<!-- Lab 04 - JavaScript Basics -->
+<html>
+    <head></head>
+    <body>
+        <p> There is a number between 000-999. </p>
+        <p id='attempts'> You have 10 guesses left. </p>
+
+        <span> Enter your guess: </span>
+        <div>
+            <input type='button' id='up-100' value=' + '> 
+            <input type='button' id='up-10' value=' + '> 
+            <input type='button' id='up-1' value=' + '> 
+        </div>
+        <div>
+            <input disabled type='number' id='digit-100' min='0' max='9' value='0'> 
+            <input disabled type='number' id='digit-10' min='0' max='9' value='0'> 
+            <input disabled type='number' id='digit-1' min='0' max='9' value='0'> 
+        </div>
+        <div>
+            <input type='button' id='down-100' value=' - '> 
+            <input type='button' id='down-10' value=' - '> 
+            <input type='button' id='down-1' value=' - '> 
+        </div>
+        <input type='button' id='guess-button' value='Submit'>
+        <ul id='clues'></ul>
+
+        <script src='scripts/guess.js'></script>
+        <script src='scripts/view.js'></script> 
+        <script src='scripts/model.js'></script> 
+        <script src='scripts/controller.js'></script>         
+    </body>
+</html>
