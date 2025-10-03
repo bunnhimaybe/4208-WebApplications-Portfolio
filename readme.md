@@ -32,7 +32,9 @@
 | Lab-02 — CSS: Crash Course [#2](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/2) | `lab-02` | closed |
 | Lab-03 — Bootstrap: Responsive Portfolio [#3](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/3) | `lab-03` | closed |
 | Lab-04 — JavaScript Basics: Hi–Lo Game (MVP → MVC) [#6](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/6) | `lab-04` | closed |
-| Lab-05 (Alt) — JavaScript OOP + Phaser: Platformer Game [#14](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/14) | `lab-05` | open |
+| Lab-05 (Alt) — JavaScript OOP + Phaser: Platformer Game [#16](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/16) | `lab-05` | open |
+| Lab-05 — JavaScript OOP + Phaser: Dodger Game [#15](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/15) | `lab-05` | open |
+| Lab-05 — JavaScript OOP + Phaser: Dodger Game [#14](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/14) | `lab-05` | open |
 | Lab-05 — JavaScript OOP + Phaser: Dodger Game [#9](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/9) | `lab-05` | open |
 | Lab-05 — JavaScript OOP + Phaser: Dodger Game [#7](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/7) | `lab-05` | closed |
 | Lab-06 — REST Client: Quiz Game + Leaderboard (Modules + Fetch) [#10](https://github.com/bunnhimaybe/4208-WebApplications-Portfolio/issues/10) | `lab-06` | open |
