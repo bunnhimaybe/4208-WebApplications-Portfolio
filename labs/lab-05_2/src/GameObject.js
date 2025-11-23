@@ -21,4 +21,17 @@ class GameObject {
         view.picture( this.#image, this.#x, this.#y, this.#width, this.#height );
     }
 
+    move(x, y) {
+        this.#x = x;
+        this.#y = y;
+    }
+
+    /* GETTERS */
+    getX() {
+        return this.#x;
+    }
+
+    getY() {
+        return this.#y;
+    }
 }

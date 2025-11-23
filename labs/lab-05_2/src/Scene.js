@@ -3,20 +3,24 @@
 class Scene {
 
     #background;
+    #blocks;
+    #player;
 
     constructor(map) {
+        this.#blocks = [];
         this.setScene(map);
     }
 
     // parse each tile per level
     setScene(levelData) {
-        const cols = levelData[0].length;   // tiles height count
-        const rows = levelData.length;      // tiles width count
+        const cols = levelData[0].length;   // tiles width count (horizontal)
+        const rows = levelData.length;      // tiles height count (vertical)
         this.setBackground( rows, cols);
 
-        for (let x=0; x < rows; x++) {
-            for (let y=0; y < cols; y++) {
-                const tile = levelData[x][y];
+        for (let r=0; r < rows; r++) {
+            for (let c=0; c < cols; c++) {
+                const tile = levelData[r][c];
+                this.setTile(c, r, tile);
                 // console.log(tile);
             }
         }
@@ -28,8 +32,27 @@ class Scene {
         this.#background = new GameObject( 0, 0, width, height, img); 
     }
 
+    setTile(x, y, tile) {
+        switch(tile) {
+            case '#': this.#blocks.push( new Block(x,y) );
+            break;
+            case '@': this.#player = new Player(x,y);
+            break;
+        }
+    }
+
     draw() {
         this.#background.draw();
+        this.#blocks.forEach( (block) => block.draw() );
+        this.#player.draw();
+    }
+
+    update() {
+        this.#player.update();
+    }
+
+    getPlayer() {
+        return this.#player;
     }
 
 }
