@@ -2,7 +2,7 @@ class PlayScene extends Phaser.Scene {
     // construct new scene
     constructor() {
         super('play');      // set this scene's id
-        this.top_score = 100;
+        this.top_score = 0;
         this.winner = 'Top Score';
     }
 
